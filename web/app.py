@@ -12,7 +12,6 @@ class Jogo():
 		self.categoria = categoria
 		self.console = console
 
-
 titulo = 'titulo-teste'
 
 jogo_1 = Jogo('Gustavo', 'ana', 'foi')
@@ -57,5 +56,5 @@ def autenticar():
 
 #--------------------------------------
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
-    # app.run(host='0.0.0.0', port=8080)
+	# app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)

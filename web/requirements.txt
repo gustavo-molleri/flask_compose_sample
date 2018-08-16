@@ -1,1 +1,5 @@
-Flask==0.10.1
+Flask==1.0.2
+flask-restful-swagger==0.20.1
+gunicorn==19.9.0
+cx_oracle==6.4.1
+psycopg2==2.7.5
